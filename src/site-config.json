@@ -1,0 +1,581 @@
+{
+  "business": {
+    "name": "Austin Construction Design",
+    "phone": "+15129222588",
+    "category": "remodeling contractor",
+    "city": "Austin",
+    "state": "TX"
+  },
+  "design": {
+    "preset": {
+      "id": "roofing-mountain-bold",
+      "categoryGroup": "roofing",
+      "name": "Mountain Bold",
+      "recipeFile": "roofing/mountain-bold.astro",
+      "colors": {
+        "primary": "#1A3A52",
+        "primaryDark": "#0F2436",
+        "primaryLight": "#C8DDE8",
+        "secondary": "#2D5F7C",
+        "accent": "#FFC600",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#1A3A52",
+        "surface": "#F0F4F7",
+        "text": "#0F172A",
+        "textLight": "#64748B",
+        "textOnDark": "#FFFFFF",
+        "border": "#D1D5DB"
+      },
+      "typography": {
+        "headingFont": "Plus Jakarta Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "medium"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "roofing/mountain-bold"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Austin's Trusted Remodeling Experts",
+      "heroSubline": "Transforming homes across Austin with quality craftsmanship and unwavering dedication. We handle every detail, from concept to completion.",
+      "aboutTitle": "Crafting Austin Homes, Building Lasting Relationships",
+      "aboutText": [
+        "Austin Construction Design was founded over a decade ago with a simple mission: to provide exceptional remodeling services rooted in honesty and integrity. We started as a small team of craftsmen passionate about transforming houses into dream homes, and through hard work and dedication, we've grown into a leading remodeling contractor in the Austin area.",
+        "Our approach is simple: understand your vision, develop a detailed plan, and execute it with precision and care. We value open communication, transparency, and collaboration throughout the entire process. We use quality materials, proven techniques, and skilled labor to ensure every project exceeds expectations.",
+        "We’re not just building homes; we’re building relationships within the Austin community. We actively support local initiatives and strive to be a responsible and contributing member of the neighborhoods we serve. We understand the unique challenges and opportunities of remodeling in Austin and are committed to providing solutions that enhance the beauty and functionality of our city's homes."
+      ],
+      "valueProps": [
+        {
+          "title": "Expert Craftsmanship",
+          "description": "Skilled professionals delivering exceptional quality in every project."
+        },
+        {
+          "title": "Transparent Pricing",
+          "description": "Honest and upfront pricing with no hidden fees or surprises."
+        },
+        {
+          "title": "Detailed Project Management",
+          "description": "Dedicated project managers ensuring smooth execution and on-time completion."
+        },
+        {
+          "title": "Local Expertise",
+          "description": "Deep understanding of Austin's unique housing styles and climate considerations."
+        }
+      ],
+      "ctaHeadline": "Ready to Reimagine Your Space?",
+      "ctaSubline": "Contact us today for a free consultation and let's discuss your remodeling goals."
+    },
+    "services": [
+      {
+        "slug": "kitchen-remodeling",
+        "name": "Kitchen Remodeling",
+        "shortDescription": "Transform your kitchen into the heart of your Austin home.",
+        "description": "The kitchen is more than just a place to cook; it's the heart of your home. Austin Construction Design specializes in creating functional and beautiful kitchens tailored to your lifestyle. Whether you're looking for a modern, open-concept design or a cozy, traditional space, we can bring your vision to life. We handle every aspect of the remodel, from initial design and demolition to cabinet installation, countertop fabrication, appliance upgrades, and plumbing/electrical work. Navigating Austin's unique building codes and material supply chains is our expertise, ensuring a smooth and seamless project. \n\nWe understand the importance of maximizing space and creating efficient workflows. Our designers will work closely with you to optimize layout, storage, and lighting. We'll also help you select the perfect materials to complement your style and budget, considering factors like durability, maintenance, and energy efficiency. From granite countertops to custom cabinetry and energy-efficient appliances, we offer a wide range of options to suit your needs. We are experienced in working with the various styles of homes in Austin, from the bungalows of Travis Heights to the new builds in Mueller. \n\nAustin's climate demands careful consideration of ventilation and moisture control in kitchens. We ensure proper installation of exhaust fans and moisture barriers to prevent mold and mildew growth. With Austin Construction Design, you can be confident that your kitchen remodel will be both beautiful and built to last.",
+        "process": [
+          "Step 1: Initial consultation and design planning",
+          "Step 2: Material selection and budgeting",
+          "Step 3: Demolition and structural modifications",
+          "Step 4: Installation of cabinets, countertops, and appliances",
+          "Step 5: Plumbing and electrical work",
+          "Step 6: Finishing touches and final inspection"
+        ],
+        "benefits": [
+          "Increased home value",
+          "Improved functionality and storage",
+          "Enhanced aesthetic appeal",
+          "Energy-efficient upgrades"
+        ],
+        "faq": [
+          {
+            "question": "How long does a kitchen remodel typically take?",
+            "answer": "The duration of a kitchen remodel depends on the scope of the project, but it generally takes between 4 to 8 weeks. We'll provide a detailed timeline during the initial consultation."
+          },
+          {
+            "question": "Do I need to move out during the remodel?",
+            "answer": "While it's not always necessary to move out, it can be more comfortable, especially during demolition and major construction phases. We'll work with you to minimize disruption and maintain a clean and safe work environment."
+          },
+          {
+            "question": "Can you help with kitchen design and layout?",
+            "answer": "Yes, we have experienced designers who can help you create a functional and stylish kitchen layout that meets your needs and preferences. We'll consider factors like workflow, storage, and aesthetics to create the perfect space."
+          }
+        ]
+      },
+      {
+        "slug": "bathroom-remodeling",
+        "name": "Bathroom Remodeling",
+        "shortDescription": "Upgrade your bathroom with our expert remodeling services in Austin.",
+        "description": "Transform your outdated bathroom into a luxurious and functional oasis with Austin Construction Design. We specialize in complete bathroom renovations, from minor updates to full-scale remodels. Whether you envision a spa-like retreat or a modern, efficient space, we can bring your ideas to life. We understand the unique challenges of bathroom remodeling in Austin, including dealing with older plumbing systems and space constraints common in many of the city's older homes. \n\nOur services include everything from demolition and plumbing/electrical work to tile installation, vanity replacement, and shower/tub upgrades. We can also help you select the perfect fixtures and finishes to complement your style and budget. We pay close attention to detail, ensuring that every aspect of the remodel is executed to perfection. With Austin's hot and humid climate, proper ventilation is crucial in bathrooms. We ensure that all bathrooms are properly ventilated to prevent moisture buildup and mold growth. \n\nWe understand the importance of creating a bathroom that is both beautiful and functional. Our designers will work with you to optimize space, improve storage, and enhance the overall aesthetic appeal. From custom vanities to walk-in showers and energy-efficient lighting, we offer a wide range of options to suit your needs. Dealing with the hard water issues common in Austin, we can also install water softeners and filtration systems to protect your fixtures and improve water quality.",
+        "process": [
+          "Step 1: Consultation and design planning",
+          "Step 2: Demolition and plumbing/electrical modifications",
+          "Step 3: Installation of new fixtures and finishes",
+          "Step 4: Tile installation and grouting",
+          "Step 5: Vanity and mirror installation",
+          "Step 6: Final inspection and cleanup"
+        ],
+        "benefits": [
+          "Increased home value",
+          "Improved functionality and comfort",
+          "Enhanced aesthetic appeal",
+          "Water-saving fixture upgrades"
+        ],
+        "faq": [
+          {
+            "question": "How long does a bathroom remodel take?",
+            "answer": "A typical bathroom remodel takes between 2 to 6 weeks, depending on the scope of the project. We'll provide a detailed timeline after assessing your specific needs."
+          },
+          {
+            "question": "Do I need to obtain permits for a bathroom remodel?",
+            "answer": "In many cases, permits are required for bathroom remodels, especially if you're making significant changes to plumbing or electrical systems. We'll handle the permit process for you to ensure compliance with local regulations."
+          },
+          {
+            "question": "Can you help with accessibility modifications for bathrooms?",
+            "answer": "Yes, we can help you create an accessible bathroom that meets your needs. We offer a range of accessibility solutions, including grab bars, walk-in showers, and comfort-height toilets."
+          }
+        ]
+      },
+      {
+        "slug": "whole-house-remodeling",
+        "name": "Whole House Remodeling",
+        "shortDescription": "Transform your entire Austin home with our comprehensive remodeling services.",
+        "description": "Ready to completely transform your Austin home? Austin Construction Design offers comprehensive whole-house remodeling services that cover every aspect of your property. From updating the layout and finishes to improving energy efficiency and adding square footage, we can help you create the home of your dreams. We understand the unique challenges of remodeling older homes in Austin, including dealing with outdated electrical systems, foundation issues, and asbestos abatement. \n\nOur team has the expertise to handle even the most complex remodeling projects. We'll work closely with you to develop a detailed plan that reflects your vision and budget. We'll manage every aspect of the project, from initial design and permitting to construction, finishing, and final inspection. We coordinate all trades, ensuring a smooth and efficient process. Given Austin's rapid growth, many homeowners are choosing to remodel rather than move. We help homeowners maximize their current space to fit their evolving needs. \n\nWe understand that a whole-house remodel can be disruptive, so we'll work hard to minimize the impact on your daily life. We'll maintain a clean and safe work environment and communicate with you regularly throughout the project. We take into account Austin's climate when remodeling whole homes, ensuring proper insulation and ventilation to help keep your home comfortable year-round.",
+        "process": [
+          "Step 1: Initial consultation and design development",
+          "Step 2: Permitting and pre-construction planning",
+          "Step 3: Demolition and structural modifications",
+          "Step 4: Installation of new systems and finishes",
+          "Step 5: Final inspection and project completion"
+        ],
+        "benefits": [
+          "Increased home value",
+          "Improved functionality and flow",
+          "Enhanced energy efficiency",
+          "Personalized living space"
+        ],
+        "faq": [
+          {
+            "question": "How long does a whole-house remodel take?",
+            "answer": "The duration of a whole-house remodel depends on the size and complexity of the project, but it typically takes between 3 to 9 months. We'll provide a detailed timeline during the initial consultation."
+          },
+          {
+            "question": "Do I need to move out during a whole-house remodel?",
+            "answer": "It's generally recommended to move out during a whole-house remodel, as the construction process can be disruptive and uncomfortable. We'll work with you to minimize the impact on your daily life and provide regular updates on the project's progress."
+          },
+          {
+            "question": "Can you help with design and space planning?",
+            "answer": "Yes, we have experienced designers who can help you create a functional and stylish design that meets your needs and preferences. We'll consider factors like layout, flow, and storage to create the perfect space."
+          }
+        ]
+      },
+      {
+        "slug": "room-additions",
+        "name": "Room Additions",
+        "shortDescription": "Expand your living space with our custom room addition services in Austin.",
+        "description": "Need more space in your Austin home? Austin Construction Design specializes in designing and building custom room additions that seamlessly integrate with your existing structure. Whether you need a new bedroom, a larger living room, or a home office, we can help you create the perfect space to meet your needs. We understand the unique challenges of building room additions in Austin, including dealing with zoning regulations, foundation issues, and matching existing architectural styles. Austin's clay soils can cause foundation problems, so proper engineering and construction are crucial for room additions. \n\nOur team will work closely with you to develop a design that complements your home's existing architecture and maximizes space. We'll handle every aspect of the project, from initial design and permitting to construction, finishing, and final inspection. We use quality materials and proven techniques to ensure that your room addition is both beautiful and built to last. Many Austin homes were built decades ago, so we are experienced at matching new construction to older styles. \n\nWe understand that adding a room can be a significant investment, so we'll work with you to develop a budget that meets your needs. We'll also provide you with regular updates on the project's progress and ensure that the work is completed on time and within budget. Austin's hot summers require careful consideration of insulation and ventilation in room additions. We ensure that all room additions are properly insulated and ventilated to maximize energy efficiency and comfort.",
+        "process": [
+          "Step 1: Consultation and design planning",
+          "Step 2: Permitting and pre-construction preparation",
+          "Step 3: Foundation work and framing",
+          "Step 4: Installation of new systems and finishes",
+          "Step 5: Final inspection and project completion"
+        ],
+        "benefits": [
+          "Increased living space",
+          "Enhanced home value",
+          "Improved functionality",
+          "Customized design"
+        ],
+        "faq": [
+          {
+            "question": "How long does it take to build a room addition?",
+            "answer": "The duration of a room addition depends on the size and complexity of the project, but it typically takes between 2 to 6 months. We'll provide a detailed timeline during the initial consultation."
+          },
+          {
+            "question": "Do I need to obtain permits for a room addition?",
+            "answer": "Yes, permits are required for room additions. We'll handle the permit process for you to ensure compliance with local regulations."
+          },
+          {
+            "question": "Can you help with matching the new addition to my existing home's style?",
+            "answer": "Yes, we have experience matching new additions to existing home styles. We'll work closely with you to ensure that the addition seamlessly integrates with your home's architecture."
+          }
+        ]
+      },
+      {
+        "slug": "outdoor-living-spaces",
+        "name": "Outdoor Living Spaces",
+        "shortDescription": "Create your dream outdoor oasis with our design and build services in Austin.",
+        "description": "Extend your living space into the great outdoors with Austin Construction Design's custom outdoor living spaces. We specialize in designing and building patios, decks, outdoor kitchens, and more. Whether you envision a relaxing retreat or an entertainment hub, we can help you create the perfect outdoor space to enjoy Austin's beautiful weather. We understand the unique challenges of designing outdoor living spaces in Austin, including dealing with the hot sun, heavy rains, and insect infestations. Austin's flash flood risk is a serious consideration for outdoor projects. \n\nOur team will work closely with you to develop a design that complements your home's architecture and meets your specific needs. We'll handle every aspect of the project, from initial design and permitting to construction, finishing, and final inspection. We use durable, weather-resistant materials to ensure that your outdoor living space is built to last. Austin's limestone bedrock requires careful planning for drainage and landscaping. \n\nWe understand that an outdoor living space is an investment, so we'll work with you to develop a budget that meets your needs. We'll also provide you with regular updates on the project's progress and ensure that the work is completed on time and within budget. We offer a wide range of options to suit your style and budget, from simple patios to elaborate outdoor kitchens and pergolas. We also consider Austin's native plants when designing outdoor living spaces, creating beautiful and sustainable landscapes.",
+        "process": [
+          "Step 1: Consultation and design planning",
+          "Step 2: Permitting and pre-construction preparation",
+          "Step 3: Site preparation and foundation work",
+          "Step 4: Construction of patios, decks, and outdoor structures",
+          "Step 5: Installation of outdoor kitchens and landscaping",
+          "Step 6: Final inspection and project completion"
+        ],
+        "benefits": [
+          "Increased home value",
+          "Enhanced outdoor enjoyment",
+          "Expanded living space",
+          "Customized design"
+        ],
+        "faq": [
+          {
+            "question": "How long does it take to build an outdoor living space?",
+            "answer": "The duration of an outdoor living space project depends on the size and complexity of the project, but it typically takes between 1 to 4 months. We'll provide a detailed timeline during the initial consultation."
+          },
+          {
+            "question": "Do I need to obtain permits for an outdoor living space?",
+            "answer": "Yes, permits are often required for outdoor living spaces, especially if you're building a deck or outdoor kitchen. We'll handle the permit process for you to ensure compliance with local regulations."
+          },
+          {
+            "question": "Can you help with landscaping and plant selection?",
+            "answer": "Yes, we can help you with landscaping and plant selection. We'll choose plants that are well-suited to Austin's climate and soil conditions."
+          }
+        ]
+      },
+      {
+        "slug": "flooring-installation",
+        "name": "Flooring Installation",
+        "shortDescription": "Upgrade your floors with our professional installation services in Austin.",
+        "description": "New flooring can dramatically transform the look and feel of your Austin home. Austin Construction Design offers professional flooring installation services for a wide range of materials, including hardwood, tile, laminate, and vinyl. We understand the unique challenges of flooring installation in Austin, including dealing with uneven subfloors, moisture issues, and the need to match existing flooring. Many older Austin homes have settling issues that require careful subfloor preparation. \n\nOur team will work closely with you to select the perfect flooring material to complement your style and budget. We'll handle every aspect of the project, from initial consultation and material selection to installation, finishing, and final inspection. We use quality materials and proven techniques to ensure that your new floors are both beautiful and built to last. We are experienced with the various styles of homes in Austin, from the historic homes in Hyde Park to the modern condos downtown. \n\nWe understand that flooring installation can be disruptive, so we'll work hard to minimize the impact on your daily life. We'll maintain a clean and safe work environment and communicate with you regularly throughout the project. We take into account Austin's climate when installing flooring, ensuring proper moisture barriers and ventilation to prevent warping and damage. Given Austin's allergy season, we can also install hypoallergenic flooring options.",
+        "process": [
+          "Step 1: Consultation and material selection",
+          "Step 2: Subfloor preparation and leveling",
+          "Step 3: Flooring installation",
+          "Step 4: Finishing and sealing",
+          "Step 5: Final inspection and cleanup"
+        ],
+        "benefits": [
+          "Increased home value",
+          "Enhanced aesthetic appeal",
+          "Improved comfort",
+          "Durable and long-lasting floors"
+        ],
+        "faq": [
+          {
+            "question": "How long does flooring installation take?",
+            "answer": "The duration of flooring installation depends on the size and complexity of the project, but it typically takes between 1 to 5 days. We'll provide a detailed timeline during the initial consultation."
+          },
+          {
+            "question": "Do I need to move furniture before flooring installation?",
+            "answer": "Yes, you'll need to move furniture before flooring installation. We can help you move furniture if needed, but there may be an additional charge."
+          },
+          {
+            "question": "Can you help me choose the right flooring material for my home?",
+            "answer": "Yes, we can help you choose the right flooring material for your home. We'll consider factors like your style, budget, and lifestyle to recommend the best options for your needs."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "Round Rock",
+        "slug": "round-rock-tx",
+        "state": "TX",
+        "content": "Austin Construction Design is proud to offer our remodeling services to the residents of Round Rock, Texas. Known for its family-friendly atmosphere and numerous parks, Round Rock is a vibrant community experiencing continuous growth. We understand the specific needs of homeowners in Round Rock's established neighborhoods, many of which were built in the 1990s and 2000s. \n\nWe specialize in updating these homes with modern kitchens, bathrooms, and living spaces that cater to the needs of today's families. Austin Construction Design can help you transform your Round Rock house into the dream home you've always wanted, all while respecting the character of your neighborhood. We are committed to providing exceptional craftsmanship and customer service in every project we undertake. We understand the Texas heat and can offer solutions to improve energy efficiency and comfort during the hot summer months.",
+        "localContext": "Round Rock is a growing city known for its 1990s-2000s family subdivisions and hot summers exceeding 100F.",
+        "nearbyAreas": [
+          "Austin",
+          "Pflugerville",
+          "Cedar Park"
+        ]
+      },
+      {
+        "city": "Cedar Park",
+        "slug": "cedar-park-tx",
+        "state": "TX",
+        "content": "Austin Construction Design is dedicated to providing top-quality remodeling services to homeowners in Cedar Park, Texas. Cedar Park has experienced significant suburban growth since the 2000s, resulting in a diverse range of housing styles and needs. We understand the challenges and opportunities that come with remodeling homes in this rapidly evolving area.\n\nWhether you're looking to update your kitchen, expand your living space, or create a luxurious master suite, Austin Construction Design has the expertise to bring your vision to life. We are committed to using high-quality materials and employing skilled craftsmen to ensure that your remodeling project is completed to the highest standards. We also understand the need for energy-efficient solutions to combat the intense Texas summers.",
+        "localContext": "Cedar Park is a suburb known for its 2000s suburban growth and hot summers exceeding 100F.",
+        "nearbyAreas": [
+          "Leander",
+          "Round Rock",
+          "Austin"
+        ]
+      },
+      {
+        "city": "Georgetown",
+        "slug": "georgetown-tx",
+        "state": "TX",
+        "content": "Austin Construction Design is pleased to offer our remodeling services to the residents of Georgetown, Texas. Georgetown boasts a charming Victorian downtown area and a rich history, with many beautiful older homes that require careful and respectful renovation. We understand the unique challenges of working with historic properties and are committed to preserving their character while updating them for modern living.\n\nFrom restoring original architectural details to creating seamless additions, Austin Construction Design has the experience and expertise to handle any remodeling project in Georgetown. We are dedicated to providing exceptional craftsmanship and customer service, ensuring that your remodeling experience is smooth and stress-free. We are also mindful of the Texas climate and can help you choose materials and designs that will keep your home comfortable year-round.",
+        "localContext": "Georgetown is a charming city with a Victorian downtown area and hot summers exceeding 100F.",
+        "nearbyAreas": [
+          "Round Rock",
+          "Liberty Hill",
+          "Leander"
+        ]
+      },
+      {
+        "city": "Pflugerville",
+        "slug": "pflugerville-tx",
+        "state": "TX",
+        "content": "Austin Construction Design is proud to serve the homeowners of Pflugerville, Texas. Pflugerville is known for its affordable newer construction and family-friendly community. We understand the needs of Pflugerville residents who are looking to personalize their homes and create spaces that reflect their unique lifestyles.\n\nWhether you're looking to update your kitchen, finish your basement, or add a new deck, Austin Construction Design has the expertise to bring your vision to life. We are committed to providing high-quality workmanship at a fair price, ensuring that you get the best value for your investment. We also understand the importance of energy efficiency in Texas homes and can help you choose options that will save you money on your utility bills.",
+        "localContext": "Pflugerville is a city known for its affordable newer construction and hot summers exceeding 100F.",
+        "nearbyAreas": [
+          "Round Rock",
+          "Austin",
+          "Hutto"
+        ]
+      },
+      {
+        "city": "Austin",
+        "slug": "austin-tx",
+        "state": "TX",
+        "content": "Austin Construction Design, based in Austin, TX, offers comprehensive remodeling services throughout the city. From the historic homes in Hyde Park to the modern residences downtown, we tailor our approach to each unique property. We understand the diverse architectural styles and neighborhood characteristics that make Austin special.\n\nWhether you're renovating a bungalow, updating a condo, or adding an ADU, Austin Construction Design has the expertise to deliver exceptional results. We pride ourselves on clear communication, meticulous attention to detail, and a commitment to exceeding our clients' expectations. We are also well-versed in sustainable building practices and can help you create a more eco-friendly home.",
+        "localContext": "Austin is a diverse city with a mix of historic and modern homes.",
+        "nearbyAreas": [
+          "West Lake Hills",
+          "Rollingwood",
+          "Barton Creek"
+        ]
+      },
+      {
+        "city": "Leander",
+        "slug": "leander-tx",
+        "state": "TX",
+        "content": "Austin Construction Design extends its remodeling expertise to Leander, TX, a rapidly growing city with a mix of established neighborhoods and new developments. We understand the needs of Leander homeowners who are looking to update their homes to reflect their evolving lifestyles.\n\nWhether you're seeking a kitchen remodel, bathroom renovation, or a complete home makeover, Austin Construction Design has the skills and experience to bring your vision to life. We are committed to providing high-quality craftsmanship, transparent pricing, and exceptional customer service. We also understand the importance of outdoor living in Texas and can help you create a beautiful and functional outdoor space.",
+        "localContext": "Leander is a rapidly growing city with a mix of housing styles.",
+        "nearbyAreas": [
+          "Cedar Park",
+          "Georgetown",
+          "Liberty Hill"
+        ]
+      },
+      {
+        "city": "Hutto",
+        "slug": "hutto-tx",
+        "state": "TX",
+        "content": "Austin Construction Design is pleased to offer remodeling services to the residents of Hutto, TX. Hutto is a growing community known for its friendly atmosphere and family-oriented lifestyle. We understand the needs of Hutto homeowners who are looking to create comfortable and functional spaces for their families.\n\nWhether you're looking to update your kitchen, create a home office, or add a new bedroom, Austin Construction Design has the expertise to handle any remodeling project. We are committed to providing high-quality workmanship, competitive pricing, and exceptional customer service. We also understand the importance of energy efficiency in Texas homes and can help you choose options that will save you money on your utility bills.",
+        "localContext": "Hutto is a growing community known for its family-oriented lifestyle.",
+        "nearbyAreas": [
+          "Pflugerville",
+          "Taylor",
+          "Round Rock"
+        ]
+      },
+      {
+        "city": "West Lake Hills",
+        "slug": "west-lake-hills-tx",
+        "state": "TX",
+        "content": "Austin Construction Design provides premium remodeling services to West Lake Hills, TX. Known for its luxury homes and stunning views, West Lake Hills demands the highest level of craftsmanship and attention to detail. We understand the unique needs of homeowners in this prestigious area.\n\nFrom custom kitchen designs to luxurious bathroom renovations, Austin Construction Design has the expertise to transform your West Lake Hills home into a showpiece. We are committed to using only the finest materials and employing skilled artisans to ensure that your remodeling project exceeds your expectations. We understand the importance of seamlessly integrating indoor and outdoor spaces.",
+        "localContext": "West Lake Hills is known for its luxury homes and stunning views.",
+        "nearbyAreas": [
+          "Rollingwood",
+          "Austin",
+          "Barton Creek"
+        ]
+      },
+      {
+        "city": "Buda",
+        "slug": "buda-tx",
+        "state": "TX",
+        "content": "Austin Construction Design proudly serves Buda, TX, offering remodeling services tailored to the town's growing community and diverse housing styles. We understand the needs of Buda homeowners who are looking to enhance their homes with modern amenities and personalized designs.\n\nWhether you're planning a kitchen upgrade, bathroom remodel, or a complete home renovation, Austin Construction Design has the expertise to deliver exceptional results. We are committed to providing high-quality workmanship, transparent communication, and outstanding customer service. We understand the importance of creating comfortable and energy-efficient living spaces.",
+        "localContext": "Buda is a growing town with diverse housing styles.",
+        "nearbyAreas": [
+          "Kyle",
+          "Austin",
+          "San Leanna"
+        ]
+      },
+      {
+        "city": "Kyle",
+        "slug": "kyle-tx",
+        "state": "TX",
+        "content": "Austin Construction Design extends its remodeling services to Kyle, TX, a rapidly expanding city with a strong sense of community. We understand the needs of Kyle homeowners who are seeking to update their homes to accommodate their growing families and evolving lifestyles.\n\nFrom kitchen and bathroom renovations to additions and whole-house remodels, Austin Construction Design has the experience and expertise to bring your vision to life. We are committed to providing high-quality craftsmanship, competitive pricing, and exceptional customer service. We prioritize open communication and collaboration throughout the remodeling process.",
+        "localContext": "Kyle is a rapidly expanding city with a strong sense of community.",
+        "nearbyAreas": [
+          "Buda",
+          "San Marcos",
+          "Mountain City"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Sarah M.",
+        "rating": 5,
+        "service": "Kitchen Remodel",
+        "text": "Austin Construction Design transformed my outdated kitchen into a dream space! The team was professional, communicative, and incredibly skilled. They helped me choose beautiful and functional materials, and the finished product exceeded my expectations. I highly recommend them!",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "David K.",
+        "rating": 4,
+        "service": "Bathroom Remodel",
+        "text": "We hired Austin Construction Design to remodel our master bathroom, and we're very happy with the results. The team was knowledgeable and efficient, and they completed the project on time and within budget. There were a couple of minor issues that were quickly resolved. Overall, a great experience.",
+        "date": "2024-11-20"
+      },
+      {
+        "name": "Jessica L.",
+        "rating": 5,
+        "service": "Whole House Remodel",
+        "text": "Austin Construction Design did an amazing job remodeling our entire house. They took our vision and made it a reality. The project was complex and involved significant structural changes, but the team handled it with professionalism and expertise. We're so grateful for their hard work and dedication.",
+        "date": "2024-09-05"
+      },
+      {
+        "name": "Michael B.",
+        "rating": 5,
+        "service": "Room Addition",
+        "text": "We needed to add a new bedroom to our home, and Austin Construction Design did a fantastic job. The addition seamlessly blends with our existing structure, and it's exactly what we needed. The team was courteous, respectful, and always kept us informed throughout the process.",
+        "date": "2024-07-12"
+      },
+      {
+        "name": "Emily R.",
+        "rating": 4,
+        "service": "Outdoor Living Space",
+        "text": "Austin Construction Design built a beautiful patio for us, and we love spending time outdoors now. The team was creative and helped us design a space that perfectly suits our needs. The only reason I'm not giving 5 stars is that there were some delays due to weather, but the quality of the work is excellent.",
+        "date": "2024-05-01"
+      },
+      {
+        "name": "Kevin S.",
+        "rating": 5,
+        "service": "Flooring Installation",
+        "text": "Austin Construction Design installed new hardwood floors throughout our home, and they look amazing! The team was professional and efficient, and they completed the project in just a few days. They also did a great job cleaning up afterwards. I highly recommend them for any flooring needs.",
+        "date": "2024-02-18"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Austin Remodeling Contractor | Home Renovations",
+        "description": "Top-rated Austin remodeling contractor. Kitchen, bath, whole house renovations. Expert craftsmanship, transparent pricing. Free consultations."
+      },
+      "about": {
+        "title": "About Austin Construction Design",
+        "description": "Learn about Austin Construction Design, our values, and our commitment to quality remodeling services in the Austin area."
+      },
+      "services": {
+        "title": "Austin Remodeling Services",
+        "description": "Comprehensive remodeling services in Austin: kitchen, bath, whole house renovations, room additions, and outdoor living spaces."
+      },
+      "contact": {
+        "title": "Contact Austin Construction Design",
+        "description": "Contact Austin Construction Design for a free consultation. Discuss your remodeling project with our expert team today!"
+      },
+      "reviews": {
+        "title": "Austin Construction Design Reviews",
+        "description": "Read reviews from satisfied Austin Construction Design customers. See why we're a trusted remodeling contractor in the area."
+      },
+      "service-areas": {
+        "title": "Austin Remodeling Service Areas",
+        "description": "Austin Construction Design provides remodeling services in Austin, Round Rock, Cedar Park, Georgetown, and Pflugerville."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "kitchen-remodeling": "/images/service-kitchen-remodeling.webp",
+      "bathroom-remodeling": "/images/service-bathroom-remodeling.webp",
+      "whole-house-remodeling": "/images/service-whole-house-remodeling.webp",
+      "room-additions": "/images/service-room-additions.webp",
+      "outdoor-living-spaces": "/images/service-outdoor-living-spaces.webp",
+      "flooring-installation": "/images/service-flooring-installation.webp"
+    },
+    "servicesResponsive": {
+      "kitchen-remodeling": {
+        "src": "/images/service-kitchen-remodeling.webp",
+        "srcset": "/images/service-kitchen-remodeling-400w.webp 400w, /images/service-kitchen-remodeling-800w.webp 800w, /images/service-kitchen-remodeling-1200w.webp 1200w, /images/service-kitchen-remodeling.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "bathroom-remodeling": {
+        "src": "/images/service-bathroom-remodeling.webp",
+        "srcset": "/images/service-bathroom-remodeling-400w.webp 400w, /images/service-bathroom-remodeling-800w.webp 800w, /images/service-bathroom-remodeling-1200w.webp 1200w, /images/service-bathroom-remodeling.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "whole-house-remodeling": {
+        "src": "/images/service-whole-house-remodeling.webp",
+        "srcset": "/images/service-whole-house-remodeling-400w.webp 400w, /images/service-whole-house-remodeling-800w.webp 800w, /images/service-whole-house-remodeling-1200w.webp 1200w, /images/service-whole-house-remodeling.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "room-additions": {
+        "src": "/images/service-room-additions.webp",
+        "srcset": "/images/service-room-additions-400w.webp 400w, /images/service-room-additions-800w.webp 800w, /images/service-room-additions-1200w.webp 1200w, /images/service-room-additions.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "outdoor-living-spaces": {
+        "src": "/images/service-outdoor-living-spaces.webp",
+        "srcset": "/images/service-outdoor-living-spaces-400w.webp 400w, /images/service-outdoor-living-spaces-800w.webp 800w, /images/service-outdoor-living-spaces-1200w.webp 1200w, /images/service-outdoor-living-spaces.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "flooring-installation": {
+        "src": "/images/service-flooring-installation.webp",
+        "srcset": "/images/service-flooring-installation-400w.webp 400w, /images/service-flooring-installation-800w.webp 800w, /images/service-flooring-installation-1200w.webp 1200w, /images/service-flooring-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
